@@ -22,5 +22,9 @@
     "style-loader": "^4.0.0",
     "webpack": "^5.93.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "container": "^0.0.2",
+    "node-polyfill-webpack-plugin": "^4.0.0"
   }
 }

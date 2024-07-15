@@ -1,4 +1,3 @@
-import Project from "./project"
 import Todo from "./todo"
 
 export default function getInfo(){

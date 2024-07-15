@@ -1,0 +1,71 @@
+:root {
+    --color1: #394a51;
+    --color2: #7fa99b;
+    --color3: #fbf2d5;
+    --color4: #fdc57b;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin-top: 0px;
+
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+
+#todos{
+    padding: 10px;
+    height: 100vh;
+    background-color: var(--color4);
+}
+
+#project_name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#project_name div{
+    color: var(--color1);
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+button{
+    background-color: var(--color1);
+    color: var(--color3);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#todo_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+
+#projects{
+    padding: 10px;
+    background-color: var(--color2);
+    text-align: center;
+}
+
+#projects div{
+    color: var(--color1);
+    margin-bottom: 10px;
+    background-color: var(--color3);
+    border-radius: 10px;
+}
+.card{
+    color: var(--color1);
+    background-color: var(--color3);
+    border-radius: 10px;
+    padding: 10px;
+}

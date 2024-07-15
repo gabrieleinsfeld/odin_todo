@@ -1,7 +1,4 @@
-import Project from "./project";
-import getInfo from "./getInfo";
-import loadPage from "./load";
-
-
+import loadPage from "./loadPage";
+import './style.css'
 loadPage()
 
