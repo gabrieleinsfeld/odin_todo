@@ -5,7 +5,7 @@ export default class Project {
     }
     addTodo(todo){
         this.list.push(todo)
-        console.log(this.list)
+        console.log('this is the list:',this.list)
     }
     removeTodo(todo){
         console.log(this.list)

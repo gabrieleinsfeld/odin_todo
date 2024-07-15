@@ -1,6 +1,7 @@
 import Project from "./project";
-import newTodo from "./load";
+import getInfo from "./getInfo";
+import loadPage from "./load";
 
-newTodo()
-console.log('what')
+
+loadPage()
 
